@@ -1,5 +1,6 @@
 Esto es una aplicación que encripta texto
-Las llaves utilizadas son estas: 
+
+Las llaves de encriptación son las siguientes: 
 
 La letra "e" es convertida para "enter"
 La letra "i" es convertida para "imes"
