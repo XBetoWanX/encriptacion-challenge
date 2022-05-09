@@ -23,17 +23,6 @@ var copiarTexto = document.getElementById("msg")
 function imprimir(frase){
     document.write(frase);
 }
-// const encriptadorToChar = {
-//     'ai': 'a',
-//     'enter': 'e',
-//     'imes' : 'i',
-//     'ober': 'o',
-//     'ufat': 'u',
-// }
-// const arregloEncriptador = encriptador.split('');
-// const arregloDesencriptador = arregloEncriptador.map((char) => encriptadorToChar[char]);
-// const textoDesencriptado = arregloDesencriptador.join("");
-
 
 //Funcion para verificar si un string contiene caracteres especiales
 function verificar(str){
@@ -46,6 +35,7 @@ function isUpper(str) {
 
 }
 
+//Funcion para encriptar texto
 function encriptar(){
     if (verificar(input.value) == false && isUpper(input.value) == false){
         var  textoEncriptar = input.value;
@@ -61,7 +51,7 @@ function encriptar(){
         document.querySelector("#msg").value = "El texto ingresado no puede contener mayúsculas y\ / \o caracteres especiales";
     }
 }
-
+//Funcion para desencriptar texto
 function desencriptar(){
     if (verificar(input.value) == false && isUpper(input.value) == false){
         var  textoDesencriptar = input.value;
@@ -90,7 +80,7 @@ function desencriptar(){
          
     //     alert("Copied Text: " + input);
     // };      
-
+    //Funcion para copiar texto
     function copiar(){
             var content = document.getElementById('msg');
         
@@ -100,7 +90,7 @@ function desencriptar(){
             alert("Copiado");
           
     }
-
+    
     function quitarMuneco(){
         const muneco = document.getElementById("muneco").classList;
         muneco.add("muneco");
