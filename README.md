@@ -14,6 +14,7 @@ Requisitos:
 - Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
 
 Por ejemplo:
+
 "gato" => "gaitober"
 
 gaitober" => "gato"
