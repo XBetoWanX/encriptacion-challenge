@@ -15,6 +15,7 @@ Requisitos:
 
 Por ejemplo:
 "gato" => "gaitober"
+
 gaitober" => "gato"
 
 La página debe tener campos para
