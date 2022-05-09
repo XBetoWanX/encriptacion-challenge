@@ -94,11 +94,15 @@ function desencriptar(){
     function quitarMuneco(){
         const muneco = document.getElementById("muneco").classList;
         muneco.add("muneco");
+        const copy = document.getElementById("btn-copy").classList;
+        copy.remove("muneco");
     }
 
     function mostarMuneco(){
         const muneco = document.getElementById("muneco").classList;
         muneco.remove("muneco");
+        const copy = document.getElementById("btn-copy").classList;
+        copy.add("muneco");
     }
 
 var button = document.getElementById("btn-encriptar");
